@@ -1,2 +1,2 @@
 # django-display
-Available on https://torsteings.herokuapp.com/display/
+Available at https://torsteings.herokuapp.com/display/
