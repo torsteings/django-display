@@ -7,10 +7,6 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
   </head>
   <body>
-    <form action="/display/" method="post">
-      {% csrf_token %}
-      {{ form }}
-      <input type="submit" value="Submit">
-    </form>
+    <h1 class="h3 mb-3 fw-normal">Temperaturen ved {{ place }} er {{ variable }} grader celcius akkurat nå</h1>
   </body>
 </html>
