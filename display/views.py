@@ -3,7 +3,7 @@ from django import forms
 import requests
 
 class NameForm(forms.Form):
-    place = forms.CharField(label='Velg holdeplass', max_length=100)
+    place = forms.CharField(label='Skriv inn navnet på et busstopp i Oslo', max_length=100)
 
 def get_name(request):
     # if this is a POST request we need to process the form data

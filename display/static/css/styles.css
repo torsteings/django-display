@@ -1,3 +1,14 @@
 h1 {
     color: green;
 }
+
+div {
+  background-color: lightgrey;
+  width: 50%;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
